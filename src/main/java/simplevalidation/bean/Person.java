@@ -12,7 +12,6 @@ public class Person {
     @Min(value = 1)
     @Max(value = 120)
     @Digits(integer = 3, fraction = 0)
-    @NotEmpty(groups = GroupMale.class)
     private Integer age;
 
     @Size(min = 4, max = 12)
